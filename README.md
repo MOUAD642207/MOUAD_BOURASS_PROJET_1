@@ -114,13 +114,26 @@ streamlit run dashboard.py
 uvicorn app:app --reload --port 8000
 📌 Accès : Ouvrez http://localhost:8000 dans votre navigateur
 
-Endpoints disponibles
-Endpoint	Méthode	Description
-/	GET	Formulaire newsletter
-/api/subscribe	POST	Inscription à la newsletter
-/api/stats	GET	Statistiques des abonnés
-/api/subscribers	GET	Liste des abonnés
-/api/newsletter-emails	GET	Emails des abonnés
+## 🔗 Endpoints disponibles
+
+| Endpoint | Méthode | Description |
+|----------|---------|-------------|
+| `/` | GET | Formulaire newsletter |
+| `/api/subscribe` | POST | Inscription à la newsletter |
+| `/api/stats` | GET | Statistiques des abonnés |
+| `/api/subscribers` | GET | Liste des abonnés |
+| `/api/newsletter-emails` | GET | Emails des abonnés |
+
+---
+
+## 📊 Sources des Données
+
+| Source | Description |
+|--------|-------------|
+| HCP | Haut-Commissariat au Plan - Données démographiques et économiques |
+| Bank Al-Maghrib | Banque centrale - Indicateurs monétaires |
+| Ministère des Finances | Budget de l'État |
+| OMPIC | Créations d'entreprises |
 
 
 
